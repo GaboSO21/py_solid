@@ -16,7 +16,7 @@ class Bird:
         print("I can fly")
 
 
-def Penguin(Bird):
+class Penguin(Bird):
     def fly(self):
         print("I can't fly")
 
